@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tyre Champs</title>
+
+  <!-- 🔹 Background animation + shared styles -->
+  <link rel="stylesheet" href="homestyle.css">
+
+  <!-- 🔹 Your custom styles for project page -->
+  <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+  <!-- Glowing background (same as homepage) -->
+  <canvas id="nokey"></canvas>
+  <script src="homepage.js"></script>
+
+  <!-- Back button -->
+  <button class="back-btn" onclick="goBack()">← Back</button>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html"; // Goes back to homepage
+    }
+  </script>
+<section class="project-section">
+   <img src="saty-2.png" alt="Project Logo" class="top-left-image">
+
+ <div class="project-content">
+      <h1>Tyre Champs</h1>
+         <h2>Role:- Unity Game Developer</h2>
+        <h2 class="tools">Tools:- Unity 2022, Visual Studio</h2>  
+         <h2 class="lan">Language:- C#</h2>  
+         <h2 class="overview">Overview</h2>  
+         
+      <p>Tyre Champs is a 3D obstacle-based runner where balance, speed, and tyre control decide how far you go.
+The player runs using four tyres, and each obstacle can reduce your tyre size, making the run more challenging.
+Speed boosts help you move faster through tough sections, but if your speed becomes too low, you won’t reach the finish line.
+Every level introduces new obstacles, tricky paths, and higher difficulty — testing your reflexes and tyre management as you push to become the true Tyre Champ.</p>
+    <h2 class="res">My Responsibilities</h2>
+     <div class="project-content">
+  <p class="responsibilities">
+    • Created the basic movement system and tyre-change mechanic.<br>
+    • Implemented tyre size change mechanics when hitting obstacles.<br>
+    • Created obstacle logic that affects speed, tyre size, and difficulty.<br>
+    • Made UI for restart, next level, and other screens.<br>
+    • Designed win/lose conditions based on player speed and tyre performance.<br>
+    • Added sound effects, background music.<br>
+    • Optimized gameplay for smooth mobile performance and responsive controls.
+  </p>
+</div>
+<h2 class="key">Key Features</h2>
+ <div class="project-content">
+  <p class="KeyFeatures">
+    • Tyre size change system that reacts to obstacles in real time.<br>
+    • Speed-based progression where slowing down leads to failure.<br>
+    • Level-based obstacle gameplay with increasing difficulty.<br>
+    • Clean and minimal UI/UX system (pause, restart, next level, fail).<br>
+  </p>
+</div>
+<h2 class="ilearn">What I Learned</h2>
+<p class="learn">This project helped me understand how to design obstacle-based gameplay using tyre mechanics, speed control, and collision interactions. I learned how to manage tyre size changes, implement speed-based fail conditions, and create fast, responsive player movement.
+It also improved my skills in building clean UI systems, handling boosts and obstacles, and optimizing the game for smooth mobile performance.</p>
+    <video class="project-video" controls>
+        <source src="project2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+</section>
+
+
+</body>
+</html>
