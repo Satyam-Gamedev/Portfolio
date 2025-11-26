@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colour Swap</title>
+
+  <!-- 🔹 Background animation + shared styles -->
+  <link rel="stylesheet" href="homestyle.css">
+
+  <!-- 🔹 Your custom styles for project page -->
+  <link rel="stylesheet" href="project1style.css">
+</head>
+<body>
+  <!-- Glowing background (same as homepage) -->
+  <canvas id="nokey"></canvas>
+  <script src="homepage.js"></script>
+
+  <!-- Back button -->
+  <button class="back-btn" onclick="goBack()">← Back</button>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html"; // Goes back to homepage
+    }
+  </script>
+<section class="project-section">
+   <img src="saty-1.png" alt="Project Logo" class="top-left-image">
+
+ <div class="project-content">
+      <h1>Colour Swap</h1>
+         <h2>Role:- Unity Game Developer</h2>
+        <h2 class="tools">Tools:- Unity 2022, Visual Studio</h2>  
+         <h2 class="lan">Language:- C#</h2>  
+         <h2 class="overview">Overview</h2>  
+         
+      <p>Colour Swap Runner is a fast-paced 3D running game built around timing, focus, and quick reactions. The player runs automatically while you swipe left or right to switch the character’s colour. The challenge is to match your colour with the incoming gates to survive and keep your streak going.
+Each level becomes harder with tighter timing, faster gates, and more obstacles, while you collect as many coins as possible to earn all three stars.</p>
+    <h2 class="res">My Responsibilities</h2>
+     <div class="project-content">
+  <p class="responsibilities">
+    • Developed player movement and lane system with smooth transitions.<br>
+    • Implemented color swap mechanics using swipe gestures.<br>
+    • Created gate collision logic that checks for color match/mismatch.<br>
+    • Designed level progression system with restart, next level, and UI management.<br>
+    • Created character shop system allowing players to purchase and select different characters using in-game coins.<br>
+    • Added sound effects, background music, and VFX for gate interactions.<br>
+    • Optimized gameplay for smooth mobile performance and responsive controls.
+  </p>
+</div>
+<h2 class="key">Key Features</h2>
+ <div class="project-content">
+  <p class="KeyFeatures">
+    • Swipe controls for real-time color swapping.<br>
+    • Gate color match mechanic for progression or failure.<br>
+    • Unlockable characters with in-game currency.<br>
+    • Level-based gameplay with increasing difficulty.<br>
+    • Clean and minimal UI/UX system (pause, restart, next level, death).<br>
+  </p>
+</div>
+<h2 class="ilearn">What I Learned</h2>
+<p class="learn">This project helped me understand how to combine input systems, collision detection, and visual 
+  feedback to create satisfying and responsive gameplay. I learned how to design responsive player controls  and manage UI systems,
+   and implement a character shop with in-game currency. It also helped me understand how to optimize performance and polish the overall player experience in Unity.</p>
+    <video class="project-video" controls>
+        <source src="project1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+</section>
+
+
+</body>
+</html>
