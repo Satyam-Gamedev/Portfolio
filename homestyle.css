@@ -91,15 +91,33 @@
         }
 
         .profile-img {
-            width: 380px;
-            height: 380px;
-            border-radius: 50%;
-            border: 8px solid #2196F3;
-            object-fit: cover;
-            object-position:   50% -130px;
-            transition: transform 0.4s ease;
-            box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
-        }
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 8px solid #2196F3;
+    object-fit: cover;
+    object-position: 50% -130px; /* laptop position */
+    transition: transform 0.4s ease;
+    box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
+}
+
+/* 📱 Mobile View Fix */
+@media (max-width: 600px) {
+    .profile-img {
+        width: 260px;
+        height: 260px;
+        object-position: 50% -80px; /* adjust for smaller screens */
+    }
+}
+
+/* 🟢 Very small phones */
+@media (max-width: 380px) {
+    .profile-img {
+        width: 220px;
+        height: 220px;
+        object-position: 50% -20px;
+    }
+}
 
         .profile-img:hover {
             transform: scale(1.08);
@@ -707,5 +725,6 @@
                 grid-template-columns: 1fr;
             }
         }
+
 
         
