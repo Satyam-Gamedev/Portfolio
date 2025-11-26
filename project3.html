@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ring Master</title>
+
+  <!-- 🔹 Background animation + shared styles -->
+  <link rel="stylesheet" href="homestyle.css">
+
+  <!-- 🔹 Your custom styles for project page -->
+  <link rel="stylesheet" href="project3.css">
+</head>
+<body>
+  <!-- Glowing background (same as homepage) -->
+  <canvas id="nokey"></canvas>
+  <script src="homepage.js"></script>
+
+  <!-- Back button -->
+  <button class="back-btn" onclick="goBack()">← Back</button>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html"; // Goes back to homepage
+    }
+  </script>
+<section class="project-section">
+   <img src="saty-3.png" alt="Project Logo" class="top-left-image">
+
+ <div class="project-content">
+      <h1>Ring Master</h1>
+         <h2>Role:- Unity Game Developer</h2>
+        <h2 class="tools">Tools:- Unity 2022, Visual Studio</h2>  
+         <h2 class="lan">Language:- C#</h2>  
+         <h2 class="overview">Overview</h2>  
+         
+      <p>Ring Master is a simple but really fun toss game inspired by those fairground ring-throw stalls.
+I created a system where you can aim, throw the ring, and try to land it exactly on the objects placed on the table. Some objects are small, some are big. That made the game feel more skill-based instead of random.</p>
+    <h2 class="res">My Responsibilities</h2>
+     <div class="project-content">
+  <p class="responsibilities">
+    • Built the ring-throw system and made sure the ring lands naturally on targets.<br>
+    • Designed different setups and gifts so each level feels a bit different.<br>
+    • Added basic win/lose logic depending on how accurately the ring lands.<br>
+    • Included sound effects, small animations, and simple feedback when the player hits or misses.<br>
+    • Optimized everything to run smoothly on mobile without lag.
+  </p>
+</div>
+<h2 class="key">Key Features</h2>
+ <div class="project-content">
+  <p class="KeyFeatures">
+    • Ring-throw mechanic with accurate target detection for successful landings.<br>
+    • Object and gift targets with different sizes and challenge levels to increase difficulty.<br>
+    • Level-based gameplay with challenging layouts and progressive difficulty.<br>
+    • Clean and minimal UI/UX system (pause, restart, next level, fail).<br>
+  </p>
+</div>
+<h2 class="ilearn">What I Learned</h2>
+<p class="learn">This project helped me understand how to design skill-based gameplay using precise throwing mechanics, target detection. I learned how to handle accurate collision interactions for the ring landing on different objects and how to balance difficulty using target sizes and placement.
+It also improved my ability to create clean UI systems, add satisfying feedback through sound and effects, and polish the overall gameplay for a smooth and enjoyable mobile experience.</p>
+    <video class="project-video" controls>
+        <source src="project3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+</section>
+
+
+</body>
+</html>
